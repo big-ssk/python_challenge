@@ -1,3 +1,5 @@
+# http://www.pythonchallenge.com/pc/def/ocr.html
+
 from pprint import pprint
 from bs4 import BeautifulSoup, Comment
 from collections import defaultdict
