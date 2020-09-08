@@ -8,5 +8,4 @@ response = requests.get(url).content
 data = pickle.loads(response)
 
 for pair in data:
-    print(pair)
     print(''.join([i * j for i, j in pair]))
